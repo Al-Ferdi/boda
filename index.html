@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boda - Alonso & Dulce</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/stylesheet.css">
+</head>
+<body>
+	<header>
+		<!--
+		<p>Nuestra boda</p>
+		<p>Alonso & Dulce</p>
+		-->
+		<!-- 
+		PENSANDO EN OMITIR EL MENU DE NAVEGACIÓN
+		<nav>
+			<ul>
+				<li>Evento</li>
+				<li>Mesa de regalos</li>
+				<li>Libro de visitas</li>
+				<li>Itinerario</li>
+				<li>Álbumes</li>
+			</ul>
+		</nav>
+		-->
+	</header>
+	<section>
+		<div id="section1" class="bgborder" style="background-image: url('./assets/img/fondos/puntos.png')">
+			<div class="header">
+				<img id="f1" src="./assets/img/grecas/g1.png">
+			</div>
+			<h4>Agosto 16, 2025</h4>
+			<h1>Alonso Fernández y Dulce Morales</h1>
+			<div id="countdown">
+			    <span style="color: #656472" id="days">0</span> días para el evento.
+			</div>
+				<script>
+				    const targetDate = new Date('2025-08-16T00:00:00'); //  16 de agosto de 2025, 23:59:59
+				    const daysElement = document.getElementById('days');
+
+				    function updateCountdown() {
+				      const now = new Date();
+				      const timeDiff = targetDate.getTime() - now.getTime();
+
+				      if (timeDiff <= 0) {
+				          daysElement.textContent = "0";
+				          return; // o detener la actualización
+				      }
+
+				      const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+				      daysElement.textContent = days;
+				    }
+
+				    updateCountdown();
+				    setInterval(updateCountdown, 1000);
+			  	</script>
+			<h2 id="clr" class="bfabab">BIENVENIDOS A LA WEB DEL EVENTO</h2>
+			<img id="portada" src="./assets/img//argollas/anillos-mesa-02.jpg">
+			<div id="half" class="txtmap squared"> <p id="clr" style="text-align: center;font-weight: bolder">PADRES DEL NOVIO</p><p id="clr" style="text-align: center">Maria&nbsp;Julia&nbsp;Díaz&nbsp;Morales &&nbsp;Mauro&nbsp;Fernández&nbsp;Arellano</p></div>
+			<div id="half" class="txtmap squared"><p id="clr" style="text-align: center;font-weight: bolder">PADRES DE LA NOVIA</p><p id="clr" style="text-align: center">Julia&nbsp;Hernández&nbsp;Piña &&nbsp;Mario&nbsp;Morales&nbsp;Saucedo</p></div>
+			<p id="clr">Bienvenidos a la web del evento. ¡El gran día se acerca! De momento aquí podrás consultar todos los detalles que necesitas saber: ubicación, horario, recomendaciones, etc. Entre muchas otras cosas podrás dejar un mensaje con tus buenos deseos. Muchas gracias por ser parte de nuestras vidas.</p>
+		</div>
+		<div id="margin">
+			<div class="middle">
+				<img id="f2" src="./assets/img/grecas/g2.png">
+			</div>
+			<h2>MESA DE REGALOS</h2>
+			<a href="https://www.sears.com.mx/Mesa-de-Regalos/191310/te-invito-a-mi-boda-alonso-dulce-nayeli">
+				<img class="mesas" src="./assets/img/mesas/mr_sears.jpg">
+			</a>
+			<a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51680478?_ga=2.215891857.765013901.1747811272-1739332057.1747367674">
+				<img class="mesas" src="./assets/img/mesas/gr_LP.jpg">
+			</a>
+			<a href="https://mesaderegalos.potterybarn.com.mx/milistaderegalos/51680478">
+				<img class="mesas" src="./assets/img/mesas/gr_PB.jpg">
+			</a>
+			<a href="https://mesaderegalos.williams-sonoma.com.mx/milistaderegalos/51680478">
+				<img class="mesas" src="./assets/img/mesas/gr_WS.jpg">
+			</a>
+		</div>
+		<div class="bgborder" id="libro" id="section1" style="background-image: url('./assets/img/fondos/puntos.png')">
+			<div class="middle">
+				<img id="f2" src="./assets/img/grecas/g2.png">
+			</div>
+			<h2 class="nn2 bfabab" >LIBRO DE VISITAS</h2>
+			<!-- CREAR UNA BASE DE DATOS PARA EL LIBRO DE VISITAS -->
+			xampp
+		</div>
+		<DIV id="margin">
+			<div class="middle">
+				<img id="f2" src="./assets/img/grecas/g2.png">
+			</div>
+			<h2>ITINERARIO</h2>
+			<img id="left" src="./assets/img/itinerario/IMG_8705.jpg">
+			<div id="right" >
+				<p style="font-weight: bolder" class="italic uln">16 de Agosto de 2025</p>
+				<br>
+				<p>17:45 Llegada al templo.</p>
+				<p>18:00 Comienzo de la ceremonia.</p>
+				<p>19:00 Fotos en las inmediaciones del templo.</p>
+				<p>19:45 Brunch, gustoso el que quiera unirse.</p>
+				<p>21:00 Celebración en el salón Villa Los Reyes.</p>
+				<br>
+				<p style="font-weight: bolder">
+					<span>Vestimenta: Formal</span>
+					<br><br>
+					<span class="italic">Control de pases en recepción, favor de presentar su pase.</span>
+				</p>
+			</div>
+		</div>
+		<div class="bgborder" style="background-image: url('./assets/img/fondos/puntos.png')">
+			<div class="motra">
+				<div class="middle">
+					<img id="f2" src="./assets/img/grecas/g2.png">
+				</div>
+				<h2 class="bfabab nn2">OTRA INFORMACIÓN</h2>
+				<div id="half" class="txtmap squared">
+					<div>
+						<p id="clr"> Ceremonia - 06:00 P. M.</p>
+						<p id="clr"> Santiago Papasquiaro 706, Hipódromo, 34270.</p>
+					</div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7288.333189420505!2d-104.64213172179161!3d24.02518973898587!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bb7ea20f34b13%3A0x1fdcd0dd889da3d0!2sParroquia%20Nuestra%20Se%C3%B1ora%20del%20Sagrado%20Coraz%C3%B3n!5e0!3m2!1ses-419!2smx!4v1747987598941!5m2!1ses-419!2smx" width="600" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<div id="half" class="txtmap squared">
+					<p id="clr"> Celebración - 09:00 P. M.</p>
+					<p id="clr">Lucía Méndez 517, Valle Del Guadiana, 34166.</p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.535265977417!2d-104.64490023704802!3d24.01218272768437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bb7f1a00df649%3A0x8e606d810ae84f43!2sVilla%20Los%20Reyes!5e0!3m2!1ses-419!2smx!4v1747818460205!5m2!1ses-419!2smx" width="600" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</DIV>
+		<div>
+			<div class="middle">
+				<img id="f2" src="./assets/img/grecas/g2.png">
+			</div>
+			<h2>NUESTRO ÁLBUM</h2>
+			<!-- INICIO -->
+				<div class="slideshow-container">
+
+					<div class="mySlides fade">
+					  <div class="numbertext">1 / 336</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc037biJoksHMPdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748055349801" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">2 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc091sNtI0MXO7dFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748056286784" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">3 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc09Px8SDz387mdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748053552482" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">4 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0-XvjiBm5pHUdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748053631385" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">5 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0w9h5OUM-4hTdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748053600424" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">6 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0w_Q-RvzyUMTdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748055518616" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">7 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc09EibSXmbV_WdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748055640831" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">8 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0wBEAvf6gZq4dFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748055750511" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">9 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc04fWyBAKK-cLdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748055839059" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">10 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc04eOcXyfD7nidFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748055874175" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">11 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc08bi7roYtf0ldFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748055910675" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">12 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc043Vz-b036podFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748055948812" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">13 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0xIPXHtBqSnCdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748055993061" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">14 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0wA-vgdOz16XdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748056030271" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">15 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0ygwwvPgPi1FdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748056057189" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">16 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc064Exl7yncWhdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748056092903" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">17 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc08imkICmHqugdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748056481806" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">18 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc082aNQGgQu8MdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748056508062" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">19 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0zKEpPfEkmvTdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748056560063" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">20 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc07TcW7dOQjDIdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748056593729" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">21 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0_IAY2xxufICdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748056648608" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">22 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc08LmyEdeaE00dFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748056678323" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">23 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc07hjVkM00i59dFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748056714662" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">24 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc03yLZKeRDzo3dFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748056738363" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">25 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc040D6Oxz0w1wdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748056763145" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">26 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0_4WeRj_T6qEdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748057221865" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">27 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc02vmNO4axRgwdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748057250075" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">28 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0wZU360t6M6ydFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748057278496" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">29 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0-DAPaIOdzQ2dFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748057444484" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">30 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc05qiXx-Wn09QdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748057481953" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">31 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc03s8s4Oz2XZPdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748057510600" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">32 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0-YuiO1kc7_ydFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748057333248" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">33 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0wTGCZD5pEKqdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748062296071" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">34 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc01fBGV3OvJw2dFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748066607347" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">35 / 36</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0wFktbEPUIXtdFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1748056369796?1748066640926" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">36 / 3</div>
+					  <img src="https://cnv.nikonimagespace.com/emb/v1?g=jM6O93ogbCO5EDeX1YM5w2Kk4s3S8kehpc_Qj-x06OC4q5GLmKTM9VxySo9VtfEZt18FP1wyYxAHrMzAcAJc0wdMrDSBeMP7dFCpqCLzhBkbBmKIQ1883hIxqzAvxylEQazJ_9wTGJ0&t=1464492815112?1748052296520" style="width:100%">
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">❮</a>
+					<a class="next" onclick="plusSlides(1)">❯</a>
+
+				</div>
+				<br>
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span> 
+				  <span class="dot" onclick="currentSlide(4)"></span> 
+				  <span class="dot" onclick="currentSlide(5)"></span> 
+				  <span class="dot" onclick="currentSlide(6)"></span> 
+				  <span class="dot" onclick="currentSlide(7)"></span> 
+				  <span class="dot" onclick="currentSlide(8)"></span> 
+				  <span class="dot" onclick="currentSlide(9)"></span> 
+				  <span class="dot" onclick="currentSlide(10)"></span> 
+				  <span class="dot" onclick="currentSlide(11)"></span> 
+				  <span class="dot" onclick="currentSlide(12)"></span> 
+				  <span class="dot" onclick="currentSlide(13)"></span> 
+				  <span class="dot" onclick="currentSlide(14)"></span> 
+				  <span class="dot" onclick="currentSlide(15)"></span> 
+				  <span class="dot" onclick="currentSlide(16)"></span> 
+				  <span class="dot" onclick="currentSlide(17)"></span> 
+				  <span class="dot" onclick="currentSlide(18)"></span> 
+				  <span class="dot" onclick="currentSlide(19)"></span> 
+				  <span class="dot" onclick="currentSlide(20)"></span> 
+				  <span class="dot" onclick="currentSlide(21)"></span> 
+				  <span class="dot" onclick="currentSlide(22)"></span> 
+				  <span class="dot" onclick="currentSlide(23)"></span> 
+				  <span class="dot" onclick="currentSlide(24)"></span> 
+				  <span class="dot" onclick="currentSlide(25)"></span> 
+				  <span class="dot" onclick="currentSlide(26)"></span> 
+				  <span class="dot" onclick="currentSlide(27)"></span> 
+				  <span class="dot" onclick="currentSlide(28)"></span> 
+				  <span class="dot" onclick="currentSlide(29)"></span> 
+				  <span class="dot" onclick="currentSlide(30)"></span> 
+				  <span class="dot" onclick="currentSlide(31)"></span> 
+				  <span class="dot" onclick="currentSlide(32)"></span> 
+				  <span class="dot" onclick="currentSlide(33)"></span> 
+				  <span class="dot" onclick="currentSlide(34)"></span> 
+				  <span class="dot" onclick="currentSlide(35)"></span> 
+				  <span class="dot" onclick="currentSlide(36)"></span> 
+				</div>
+
+				<script>
+					let slideIndex = 1;
+					showSlides(slideIndex);
+
+					function plusSlides(n) {
+					  showSlides(slideIndex += n);
+					}
+
+					function currentSlide(n) {
+					  showSlides(slideIndex = n);
+					}
+
+					function showSlides(n) {
+					  let i;
+					  let slides = document.getElementsByClassName("mySlides");
+					  let dots = document.getElementsByClassName("dot");
+					  if (n > slides.length) {slideIndex = 1}    
+					  if (n < 1) {slideIndex = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";  
+					  }
+					  for (i = 0; i < dots.length; i++) {
+					    dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex-1].style.display = "block";  
+					  dots[slideIndex-1].className += " active";
+					}
+					</script>
+			<!-- FIN -->
+				  <!-- 
+			<form action="/upload" method="post" enctype="multipart/form-data">
+			  <label for="foto">Selecciona una foto:</label>
+			  <input type="file" id="foto" name="foto" accept="image/*">
+			  <button type="submit" target="https://g.api.mega.co.nz/cs?id=sequence_number&ak=appkey&[&sid=sessionid|&n=node]">Subir</button>
+			</form>
+				  -->
+		</div>
+		<div class="footer">
+			<img id="f1" src="./assets/img/grecas/g3.png">
+		</div>
+	</section>
+</body>
+<html>
